@@ -18,3 +18,9 @@ djangorestframework==3.9.2  # https://github.com/encode/django-rest-framework
 drf-yasg==1.15.0
 inflection==0.3.1
 ruamel.yaml==0.15.97
+
+# REST-JWT
+# ------------------------------------------------------------------------------
+PyJWT==1.7.1
+djangorestframework-jwt==1.11.0
+djangorestframework-simplejwt==4.3.0

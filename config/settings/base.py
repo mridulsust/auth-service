@@ -66,6 +66,7 @@ THIRD_PARTY_APPS = [
 ]
 LOCAL_APPS = [
     "auth_service.users.apps.UsersAppConfig",
+    "auth_service.authentications.apps.AuthenticationsConfig",
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
