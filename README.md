@@ -2,8 +2,6 @@
 
 **Authentication and authorization Service**
 
-API documentation for the project is available [here](docs/rest_api.md).
-
 Swagger documentation: [http://localhost:8000/api/v1/docs/](http://localhost:8000/api/v1/docs/)
 
 Admin: [http://localhost:8000/lbhr5Q2NPWNizVb/](http://localhost:8000/lbhr5Q2NPWNizVb/)
@@ -26,7 +24,7 @@ docker-compose -f local.yml up
 ### Run Test
 
 ```
-docker-compose -f local.yml run django pytest -s
+sudo docker-compose -f local.yml run django python manage.py test
 ```
 
 ## Built With
