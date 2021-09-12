@@ -30,6 +30,9 @@ doc_patterns = ([
 api_patterns = ([
     # Docs
     path("docs/", include(doc_patterns, namespace="docs")),
+    # Users
+    path("users/", include("auth_service.users.rest_api.urls", namespace="users")),
+    # Authentication
     path("authentications/", include("auth_service.authentications.rest_api.urls", namespace="authentications")),
 ], "api")
 
